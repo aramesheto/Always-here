@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Always Here, for you</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(145deg, #03050c, #0b1530, #05070e);
+    color: #e7edff;
+    font-family: Georgia, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.card {
+    width: 100%;
+    max-width: 390px;
+    padding: 28px;
+    text-align: center;
+    background: rgba(12, 20, 42, 0.85);
+    border: 1px solid #24365e;
+    border-radius: 22px;
+    box-shadow: 0 0 40px rgba(44, 84, 170, 0.12);
+}
+
+.label {
+    color: #829bd4;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.cover {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 14px;
+    border: 1px solid #25395f;
+    display: block;
+}
+
+h1 {
+    font-size: 29px;
+    font-weight: normal;
+    margin: 26px 0 10px;
+    color: #e1eaff;
+}
+
+.subtitle {
+    color: #8293b9;
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 26px;
+}
+
+audio {
+    width: 100%;
+    height: 42px;
+    margin-bottom: 22px;
+    filter: invert(0.88) hue-rotate(180deg);
+}
+
+.message {
+    color: #8fa4d4;
+    font-size: 13px;
+    line-height: 2;
+    border-top: 1px solid #233354;
+    padding-top: 18px;
+}
+
+.footer {
+    margin-top: 24px;
+    color: #50658f;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+</style>
+</head>
+
+<body>
+
+<main class="card">
+
+    <div class="label">A LITTLE SECRET</div>
+
+    <img
+        src="cover.jpg"
+        alt="Always Here, for you"
+        class="cover"
+    >
+
+    <h1>Always Here, for you</h1>
+
+    <div class="subtitle">a little place for someone special.</div>
+
+    <audio controls preload="metadata">
+        <source src="song.mp3" type="audio/mpeg">
+        Your browser does not support audio playback.
+    </audio>
+
+    <div class="message">
+        some feelings are better left unspoken.
+        <br>
+        but they're still here.
+    </div>
+
+    <div class="footer">— stupid —</div>
+
+</main>
+
+</body>
+  </html>
